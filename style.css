@@ -1,0 +1,38 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: 250px;
+    border: solid 3px;
+}
+
+main {
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: 800px;
+    border: solid 3px;
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: ;
+    border: solid 3px;
+}
+
+footer section {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,33%);
+}
